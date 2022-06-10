@@ -1,0 +1,17 @@
+.table {
+  &_td {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+
+    div {
+      width: 100px;
+      text-align: center;
+      border: 1px solid;
+    }
+  }
+  &_header {
+    cursor: pointer;
+  }
+}

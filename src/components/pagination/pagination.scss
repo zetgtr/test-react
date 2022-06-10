@@ -1,0 +1,20 @@
+.pagination {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  &_num {
+    border: 1px solid;
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+  &_activ {
+    background-color: #72C5D9;
+    border: 1px solid;
+    padding: 5px 10px;
+    margin: 5px;
+    cursor: pointer;
+    border-radius: 15px;
+  }
+}

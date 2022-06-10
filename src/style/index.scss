@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+}
+#root {
+  height: 100%;
+}
+
+main {
+  flex: 1 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.conteiner {
+  max-width: 1200px;
+  margin: auto;
+}
+
+@import "./global/variables";
+@import "../components/app/app.scss";
+@import "../components/header/header.scss";
+@import "../components/filter/filter.scss";
+@import "../components/table/table.scss";
+@import "../components/pagination/pagination.scss";
+@import "../components/footer/footer.scss";
